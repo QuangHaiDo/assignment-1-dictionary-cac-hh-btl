@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b3dfe85-44aa-419d-a47f-8eeb4272b0a4" name="Default Changelist" comment="Creat 3 classes, no new function">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" afterDir="false" />
+    <list default="true" id="5b3dfe85-44aa-419d-a47f-8eeb4272b0a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dictionary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DictionaryManagerment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictionaryManagerment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Word.class" afterDir="false" />
@@ -36,13 +30,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1987" />
-          <entry key="txt" value="97" />
+          <entry key="txt" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1987" />
-          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="PLAIN_TEXT" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -89,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
                 <element signature="e#110#116#0" expanded="true" />
               </folding>
@@ -110,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="181">
               <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -286,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538581994202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 1 with commandline, functions are not tested, there is'n database to test yet.">
+      <created>1538587536859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538587536859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -357,7 +358,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install git in intelliJ" />
     <MESSAGE value="Creat 3 classes, no new function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creat 3 classes, no new function" />
+    <MESSAGE value="Version 1 with commandline, functions are not tested, there is'n database to test yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1 with commandline, functions are not tested, there is'n database to test yet." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -394,16 +396,6 @@
     <entry file="file://$PROJECT_DIR$/target/classes/Dictionary.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <element signature="e#110#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -420,12 +412,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="181">
           <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#270#446#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#110#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
