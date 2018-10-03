@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class DictionaryManagerment {
 
-    public void showAllWords(){
+    Dictionary dict = new Dictionary();
 
-    }
-    public static void main(String[] args){
-        System.out.println("Welcome to Dictionary app!!");
+    public static void insertFromCommandline(){
+        Word newWord = new Word();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Word_Target: ");
+        newWord.setWord_target(sc.nextLine());
+        System.out.println("Word_Explane: ");
+        newWord.setWord_explain(sc.nextLine());
     }
 }

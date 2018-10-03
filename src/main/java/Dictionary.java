@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
 public class Dictionary {
-    ArrayList<Word> wordsList = new ArrayList<Word>();
+    protected ArrayList<Word> wordsList = new ArrayList<Word>();
+    public Dictionary(){
+    }
 }
