@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b3dfe85-44aa-419d-a47f-8eeb4272b0a4" name="Default Changelist" comment="Version 1 with commandline, functions are not tested, there is'n database to test yet.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryGUIver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/DictEV-Modified.dic" beforeDir="false" afterPath="$PROJECT_DIR$/database/DictEV-Modified.dic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/DictEVC.dic" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DictEV-Modified.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DictEV.dic" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictionaryApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryCommandline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictionaryCommandline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryManagerment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictionaryManagerment$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DictionaryManagerment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictionaryManagerment.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,25 +21,27 @@
     <session id="-2066161437">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4051" />
+          <entry key="java" value="4228" />
           <entry key="txt" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4051" />
+          <entry key="JAVA" value="4228" />
           <entry key="PLAIN_TEXT" value="226" />
         </counts>
       </usages-collector>
@@ -86,38 +83,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryManagerment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
               <folding>
-                <element signature="e#110#116#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#deleteWord#0;class#DictionaryManagerment#0" />
+                <element signature="method#deleteWord#1;class#DictionaryManagerment#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryManagerment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addWord#1;class#DictionaryManagerment#0" />
-                <element signature="method#deleteWord#0;class#DictionaryManagerment#0" />
-                <element signature="method#deleteWord#1;class#DictionaryManagerment#0" />
-                <element signature="method#exportWordsToFile#0;class#DictionaryManagerment#0" />
-                <element signature="e#2559#2560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#showAllWords#0;class#DictionaryCommandline#0" />
+                <element signature="method#dictionaryBasic#0;class#DictionaryCommandline#0" />
               </folding>
             </state>
           </provider>
@@ -126,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryGUIver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="68">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
@@ -140,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="453">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,10 +155,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/main/java/Word.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryGUIver.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" />
       </list>
     </option>
   </component>
@@ -190,7 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +218,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,10 +319,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4903226" visible="true" weight="0.18910742" />
-      <window_info id="Structure" order="1" sideWeight="0.5096774" side_tool="true" visible="true" weight="0.18910742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4870968" visible="true" weight="0.19515885" />
+      <window_info id="Structure" order="1" sideWeight="0.5129032" side_tool="true" visible="true" weight="0.19515885" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -412,10 +404,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryGUIver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -423,44 +422,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        <state relative-caret-position="453">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#110#116#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#showAllWords#0;class#DictionaryCommandline#0" />
+            <element signature="method#dictionaryBasic#0;class#DictionaryCommandline#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryManagerment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="74" column="64" selection-start-line="74" selection-start-column="64" selection-end-line="74" selection-end-column="64" />
+        <state relative-caret-position="181">
+          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addWord#1;class#DictionaryManagerment#0" />
             <element signature="method#deleteWord#0;class#DictionaryManagerment#0" />
             <element signature="method#deleteWord#1;class#DictionaryManagerment#0" />
-            <element signature="method#exportWordsToFile#0;class#DictionaryManagerment#0" />
-            <element signature="e#2559#2560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

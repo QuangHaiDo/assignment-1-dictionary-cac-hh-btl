@@ -59,7 +59,7 @@ public class DictionaryManagerment {
         }
     }
     public void importWordsFromFile(){
-        File f = new File("database/DictEV-Modified.dic");
+        File f = new File("database/dictEV-Modified.dict");
         try{
             Scanner sc = new Scanner(f);
                 try {

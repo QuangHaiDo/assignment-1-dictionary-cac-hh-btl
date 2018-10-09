@@ -16,8 +16,10 @@ public class DictionaryCommandline {
     }
 
     public void dictionaryBasic() {
-        System.out.println("=== Dictionary Commandline ===");
+        System.out.println("Scanning database, please hold...");
         dictManagerment.importWordsFromFile();
+        System.out.println("Scan complete! Starting...");
+        System.out.println("=== Dictionary Commandline ===");
         int opt = -1;
         Scanner opts = new Scanner(System.in);
         while (opt !=0) {
