@@ -26,6 +26,15 @@ public class DictionaryManagerment {
         this.dict.wordsList.add(addNewWord);
     }
 
+    // Delete by pos
+    public void deleteWord(int pos){
+        try{
+            this.dict.wordsList.remove(pos);
+        } catch (Exception e) {
+            System.out.println("Word isn't exist!");
+        }
+    }
+    // Delete by word_target
     public void deleteWord(Word w){
         try{
         int pos = this.dict.wordsList.indexOf(w);
@@ -34,9 +43,23 @@ public class DictionaryManagerment {
             System.out.println("Word isn't exist!");
         }
     }
-    
+    public void exportWordsToFile()
+    {
+        File f = new File("database/DictEV-Modified.dic");
+        try {
+            BufferedWriter fileOut = new BufferedWriter(new FileWriter(f));
+            for (Word w:this.dict.wordsList) {
+                fileOut.write(w.getWord_target() +"="+w.getWord_explain());
+                fileOut.newLine();
+                fileOut.flush();
+            }
+            fileOut.close();
+        } catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
     public void importWordsFromFile(){
-        File f = new File("database/DictEVC.dic");
+        File f = new File("database/DictEV-Modified.dic");
         try{
             Scanner sc = new Scanner(f);
                 try {

@@ -16,7 +16,7 @@ public class DictionaryCommandline {
     }
 
     public void dictionaryBasic() {
-        System.out.println("Dictionary Ver 1");
+        System.out.println("=== Dictionary Commandline ===");
         dictManagerment.importWordsFromFile();
         int opt = -1;
         Scanner opts = new Scanner(System.in);
@@ -25,6 +25,7 @@ public class DictionaryCommandline {
             System.out.println("1. Add New Word From Commandline");
             System.out.println("2. Show All Words");
             System.out.println("3. Save changes");
+            System.out.println("4.Remove Word");
             System.out.println("0.Exit");
             opt = opts.nextInt();
             switch (opt) {
@@ -38,12 +39,18 @@ public class DictionaryCommandline {
                 }
                 case 3: {
                     dictManagerment.exportWordsToFile();
+                    break;
+                }
+                case 4:{
+                    System.out.println("pos??");
+                    Scanner s = new Scanner(System.in);
+                    int pos = s.nextInt();
+                    dictManagerment.deleteWord(pos);
+                    break;
                 }
                 default: break;
             }
         }
     }
-
-
 
 }
