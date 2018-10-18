@@ -1,6 +1,4 @@
 import java.io.*;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class DictionaryManagerment {
@@ -14,19 +12,25 @@ public class DictionaryManagerment {
         newWord.setWord_target(sc.nextLine());
         System.out.println("Word_Explane: ");
         newWord.setWord_explain(sc.nextLine());
-        addWord(newWord);
+        addWord(newWord.getWord_target(), newWord.getWord_explain());
     }
 
-    public void addWord(Word w){
-        this.dict.wordsList.add(w);
-    }
+    public void addWord(String target, String explain) {
+        int len = target.length();
+        Dictionary.Node cur = dict.root;
+        for(int i=0;i<len;i++) {
+            if(cur.nodes[target.charAt(i)-dict.START]==null) {
+                cur.nodes[target.charAt(i)-dict.START] = new Dictionary.Node();
+            }
+            cur = cur.nodes[target.charAt(i)-dict.START];
 
-    public void addWord(String target,String explain){
-        Word addNewWord = new Word(target,explain);
-        this.dict.wordsList.add(addNewWord);
+            if(i==len-1) {
+                cur.isEndOfWord = true;
+                cur.explain = explain;
+            }
+        }
     }
-
-    // Delete by pos
+    /* Delete by pos
     public void deleteWord(int pos){
         try{
             this.dict.wordsList.remove(pos);
@@ -45,7 +49,7 @@ public class DictionaryManagerment {
     }
     public void exportWordsToFile()
     {
-        File f = new File("database/DictEV-Modified.dic");
+        File f = new File("database/DictEV-Modified.dict");
         try {
             BufferedWriter fileOut = new BufferedWriter(new FileWriter(f));
             for (Word w:this.dict.wordsList) {
@@ -57,29 +61,21 @@ public class DictionaryManagerment {
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
-    }
+    }*/
     public void importWordsFromFile(){
-        File f = new File("database/dictEV-Modified.dict");
-        try{
-            Scanner sc = new Scanner(f);
+        try {
+            Scanner br = new Scanner(new FileInputStream("database/dictEV-Modified-final.dict"));
+            while (br.hasNextLine()) {
+                String line = br.nextLine();
                 try {
-                    while (sc.hasNextLine()) {
-                        String[] str = sc.nextLine().split("=");
-                        addWord(str[0],str[1]);
-                    }
-                } catch (Exception e){
-                    System.out.println("No database found!!");
-                }
-                finally
-                {
-                    Collections.sort(dict.wordsList, new Comparator<Word>() {
-                        public int compare(Word w1, Word w2) {
-                            return (w1.getWord_target().compareTo(w2.getWord_target()));
-                        }
-                    });
-                    if(sc!= null) sc.close();
+                    String[] es = line.split("=");
+                    addWord(es[0], es[1]);
+                } catch (Exception e) {
+                    System.out.println(line);
                 }
             }
-            catch (Exception e) {System.out.println(e.getMessage());}
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

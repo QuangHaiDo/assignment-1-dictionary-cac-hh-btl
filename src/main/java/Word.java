@@ -1,4 +1,5 @@
 public class Word {
+
     // Các thuộc tính
     private String word_target;
     private String word_explain;
@@ -10,7 +11,6 @@ public class Word {
     }
 
     public Word() {
-
     }
 
     // Getter/Setter tương ứng

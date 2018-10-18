@@ -3,6 +3,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 public class DictionaryCommandline {
+/*
     DictionaryManagerment dictManagerment = new DictionaryManagerment();
 
     // Show all words
@@ -14,6 +15,8 @@ public class DictionaryCommandline {
             System.out.printf("%6d %-18s %-20s \n", dictManagerment.dict.wordsList.indexOf(w),w.getWord_target(), w.getWord_explain());
         }
     }
+
+    // Search by keyWord
 
     public void dictionaryBasic() {
         System.out.println("Scanning database, please hold...");
@@ -54,5 +57,5 @@ public class DictionaryCommandline {
             }
         }
     }
-
+    */
 }

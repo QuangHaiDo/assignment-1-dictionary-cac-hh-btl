@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class DictionaryApplication {
+    /*
     public static void  menuVersion(){
         System.out.println("Choose version:");
         System.out.println("1. Commandline Ver");
@@ -27,4 +28,5 @@ public class DictionaryApplication {
             default: break;
         }
     }
+    */
 }
