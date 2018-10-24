@@ -1,5 +1,7 @@
 package DictGUIVer;
 
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,18 +14,34 @@ public class DictionaryManagerment {
 
     /**
      * modified this function to add word with GUI
-     **
+     **/
     public void insertFromGUI(){
-        Word newWord = new Word();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Word_Target: ");
-        newWord.setWord_target(sc.nextLine().toLowerCase());
-        System.out.println("Word_Explane: ");
-        newWord.setWord_explain(sc.nextLine().toLowerCase());
-        addToMyFavourite(newWord.getWord_target(), newWord.getWord_explain());
-        addWordToTree(newWord.getWord_target(),newWord.getWord_explain());
+     JLabel typeWord = new JLabel("Type word: ");
+     String newTarget = JOptionPane.showInputDialog(null,"Type target");
+     JLabel typeExplain = new JLabel();
+     String newExplain = JOptionPane.showInputDialog(null,"Type explain");
+     addToMyFavourite(newTarget.toLowerCase(), newExplain.toLowerCase());
+     addWordToTree(newTarget,newExplain);
+     addToMyFavourite(newTarget,newExplain);
     }
-*/
+
+    public void showMyFavourite(){
+        JFrame frame = new JFrame("My Favourite");
+        DefaultTableModel model = new DefaultTableModel();
+        String column[]={"Word Target","Word Explain"};
+        String[][] data = new String[myFavortire.wordsList.size()][2];
+        for (int i=0;i<myFavortire.wordsList.size();i++) {
+            data[i][0] = myFavortire.wordsList.get(i).getWord_target();
+            data[i][1] = myFavortire.wordsList.get(i).getWord_explain();
+        }
+        JTable table=new JTable(data,column);
+        //add the table to the frame
+        JScrollPane sp = new JScrollPane(table);
+        frame.add(sp);
+        frame.setSize(600,400);
+        frame.setVisible(true);
+
+    }
 
     public void addWordToTree(String target, String explain) {
         int len = target.length();

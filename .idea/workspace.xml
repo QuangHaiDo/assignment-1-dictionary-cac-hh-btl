@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="assignment-1-dictionary-cac-hh-btl:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3dfe85-44aa-419d-a47f-8eeb4272b0a4" name="Default Changelist" comment="Version 1 with commandline, functions are not tested, there is'n database to test yet.">
-      <change afterPath="$PROJECT_DIR$/database/MyFavourite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/Favourite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Favourite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/appLaucher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryGUIver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagerment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryManagerment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dictionaryDatabase.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Dictionary$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Dictionary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryCommandline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryGUIver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DictionaryManagerment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictEV-Modified.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictEV.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DictEV-Modified-final.dict" beforeDir="false" afterPath="$PROJECT_DIR$/database/DictEV-Modified-final.dict" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DictEV-Modified.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/DictEV.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/MyFavourite" beforeDir="false" afterPath="$PROJECT_DIR$/database/MyFavourite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/dictionaryDatabase.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dictionaryDatabase.dict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DictGUIVer/DictionaryManagerment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DictGUIVer/GUILauncher.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +36,9 @@
     <session id="-2066161437">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="3" />
@@ -56,45 +48,45 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="MyFavourite" value="213" />
-          <entry key="dummy" value="65" />
-          <entry key="java" value="12356" />
+          <entry key="dummy" value="71" />
+          <entry key="java" value="14110" />
           <entry key="txt" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12356" />
-          <entry key="PLAIN_TEXT" value="504" />
+          <entry key="JAVA" value="14110" />
+          <entry key="PLAIN_TEXT" value="510" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="MyFavourite" value="5" />
+          <entry key="MyFavourite" value="6" />
           <entry key="class" value="1" />
           <entry key="dic" value="1" />
           <entry key="dict" value="5" />
-          <entry key="form" value="8" />
-          <entry key="java" value="129" />
+          <entry key="form" value="9" />
+          <entry key="java" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Dictionary" value="1" />
-          <entry key="GUI_DESIGNER_FORM" value="8" />
-          <entry key="JAVA" value="129" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="GUI_DESIGNER_FORM" value="9" />
+          <entry key="JAVA" value="147" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -104,33 +96,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="830">
+              <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="75" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#showWordsListOnStart#0;class#GUILauncher#0" />
+                <element signature="e#2109#2110#0" expanded="true" />
+                <element signature="e#2172#2173#0" expanded="true" />
+                <element signature="e#2329#2330#0" expanded="true" />
+                <element signature="e#2394#2395#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryManagerment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/appLaucher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="44" column="94" selection-start-line="44" selection-start-column="94" selection-end-line="44" selection-end-column="94" />
+            <state relative-caret-position="119">
+              <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+            <state relative-caret-position="153">
+              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Favourite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,31 +153,6 @@
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-              <folding>
-                <element signature="class#Node#0;class#Dictionary#0" />
-                <element signature="docComment;method#traversal#0;class#Dictionary#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -189,6 +168,7 @@
       <find>ield</find>
       <find>search</find>
       <find>word_target_JList</find>
+      <find>frame</find>
     </findStrings>
     <replaceStrings>
       <replace>START</replace>
@@ -228,14 +208,18 @@
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/MainGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryGUIVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryManagerment.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/Pair.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.form" />
+        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/DictOnStart.form" />
+        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/DictOnStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/AddNewWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/AddNewWordForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java" />
       </list>
     </option>
   </component>
@@ -261,18 +245,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BTL" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment-1-dictionary-cac-hh-btl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BTL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment-1-dictionary-cac-hh-btl" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BTL" type="b2602c69:ProjectViewProjectNode" />
@@ -291,6 +269,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BTL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-1-dictionary-cac-hh-btl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DictGUIVer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BTL" type="b2602c69:ProjectViewProjectNode" />
@@ -304,9 +290,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -326,10 +316,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GUILauncher">
-    <configuration name="DictionaryManagerment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DictionaryCommandLine.DictionaryManagerment" />
+  <component name="RunManager" selected="Application.appLaucher">
+    <configuration name="DictOnStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DictGUIVer.DictOnStart" />
       <module name="assignment-1-dictionary-cac-hh-btl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DictGUIVer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,19 +371,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DictionaryManagerment" />
       <item itemvalue="Application.appLaucher" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.main" />
       <item itemvalue="Application.GUILauncher" />
+      <item itemvalue="Application.DictOnStart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GUILauncher" />
         <item itemvalue="Application.appLaucher" />
+        <item itemvalue="Application.GUILauncher" />
+        <item itemvalue="Application.DictOnStart" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.DictionaryManagerment" />
       </list>
     </recent_temporary>
   </component>
@@ -448,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6129808" visible="true" weight="0.17473525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6129808" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" sideWeight="0.38701922" side_tool="true" weight="0.16263238" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -518,9 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/Dictionary.class" />
     <entry file="file://$PROJECT_DIR$/database/DictEV-Modified.dic" />
-    <entry file="file://$PROJECT_DIR$/database/DictEV-Modified.dict">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/DictEV-Modified.dict" />
     <entry file="file://$PROJECT_DIR$/DictEV.dict">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -528,13 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/dictionaryDatabase.dict">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="997" column="32" lean-forward="true" selection-start-line="997" selection-start-column="32" selection-end-line="997" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/dictionaryDatabase.dict" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -555,13 +544,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryMangagerment.java" />
-    <entry file="file://$PROJECT_DIR$/database/MyFavourite">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -570,13 +552,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryGUIver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Favourite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/moi.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/moi.form" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/GUILaucher.form" />
@@ -596,13 +571,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryGUIVersion.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/appLaucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -626,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="538">
           <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="class#Node#0;class#Dictionary#0" />
@@ -635,13 +603,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictOnStart.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictOnStart.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/AddNewWordForm.java" />
+    <entry file="file://$PROJECT_DIR$/database/MyFavourite">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -655,33 +623,137 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/Favourite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#showWordsListOnStart#0;class#GUILauncher#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryManagerment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="44" column="94" selection-start-line="44" selection-start-column="94" selection-end-line="44" selection-end-column="94" />
+        <state relative-caret-position="680">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/DictionaryCommandline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/DictionaryManagerment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictGUIVer/GUILauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="75" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2109#2110#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryCommandLine/appLaucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>assignment-1-dictionary-cac-hh-btl:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment-1-dictionary-cac-hh-btl</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

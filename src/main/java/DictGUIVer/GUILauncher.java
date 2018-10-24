@@ -3,9 +3,10 @@ package DictGUIVer;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
 public class GUILauncher {
@@ -23,6 +24,7 @@ public class GUILauncher {
     public GUILauncher(){
         dictionaryAdvancedStart();
         showWordsListOnStart();
+
         textPane1.setEditable(false);
 
         /**
@@ -57,6 +59,18 @@ public class GUILauncher {
             }
         });
 
+        addWordButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dictManagerment.insertFromGUI();
+            }
+        });
+        myFavoriteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dictManagerment.showMyFavourite();
+            }
+        });
         frame.add(mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600,400);
@@ -65,14 +79,15 @@ public class GUILauncher {
 
 
     public void dictionaryAdvancedStart() {
-        // SHOW TO GUI
-        System.out.println("Scanning database, please hold...");
-
+        JDialog scanDatabaseDialog = new JDialog();
+       // scanDatabaseDialog.setLayout(new FlowLayout());
+        scanDatabaseDialog.setTitle("English-Vietnamese Dictionary By team H-H");
+        scanDatabaseDialog.setSize(200,150);
+        scanDatabaseDialog.add(new JLabel("Scanning database, please hold..."));
+        scanDatabaseDialog.setVisible(true);
         dictManagerment.importWordsFromDatabase();
         dictManagerment.importWordsFromFavourite();
-        // SHOW TO GUI
-        System.out.println("Scan complete! Starting...");
-        System.out.println("===Dictionary GUI Version ===");
+        scanDatabaseDialog.setVisible(false);
     }
 
 
@@ -104,7 +119,8 @@ public class GUILauncher {
 
     public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            GUILauncher init = new GUILauncher();
-            init.frame.setVisible(true);
+        //DictOnStart onStart = new DictOnStart();
+        GUILauncher init = new GUILauncher();
+        init.frame.setVisible(true);
     }
 }

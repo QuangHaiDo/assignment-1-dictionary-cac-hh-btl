@@ -32,7 +32,7 @@ public class DictionaryCommandline {
                         Scanner typeWord = new Scanner(System.in);
                         String wordSearch = typeWord.nextLine();
                         // Search and show results
-                        for(Word p :dictManagerment.dict.searchWord(wordSearch,100)) {
+                        for(Word p :dictManagerment.dict.searchWord(wordSearch.toLowerCase(),100)) {
                             System.out.println(p.getWord_target()+" : "+p.getWord_explain());
                         }
                         System.out.println("1. Find Next");
