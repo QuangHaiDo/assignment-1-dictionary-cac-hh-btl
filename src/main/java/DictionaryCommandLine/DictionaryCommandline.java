@@ -1,12 +1,19 @@
 package DictionaryCommandLine;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Class trách nhiêm kiểm soát hoạt động chính của ứng dụng.
+ */
 public class DictionaryCommandline {
 
     DictionaryManagerment dictManagerment = new DictionaryManagerment();
 
+    /**
+     * Khởi tạo ứng dụng từ điển chính
+     * Gồm menu và số thứ tự
+     * Bấm số tương ứng để lựa chọn
+     */
     public void dictionaryBasic() {
         System.out.println("Scanning database, please hold...");
         dictManagerment.importWordsFromDatabase();

@@ -13,7 +13,7 @@ public class DictionaryManagerment {
     Favourite myFavortire = new Favourite();
 
     /**
-     * modified this function to add word with GUI
+     * Hàm + giao diện thêm từ mới
      **/
     public void insertFromGUI(){
      JLabel typeWord = new JLabel("Type word: ");
@@ -25,6 +25,9 @@ public class DictionaryManagerment {
      addToMyFavourite(newTarget,newExplain);
     }
 
+    /**
+     * Hàm + giao diện hiện toàn bộ từ trong danh sách ưa thích
+     */
     public void showMyFavourite(){
         JFrame frame = new JFrame("My Favourite");
         DefaultTableModel model = new DefaultTableModel();

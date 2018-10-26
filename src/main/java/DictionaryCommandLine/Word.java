@@ -15,7 +15,10 @@ public class Word {
     public Word() {
     }
 
-    // Getter/Setter tương ứng
+    /**
+     * Getter/Setter tương ứng
+      */
+
     public String getWord_target() {
         return word_target;
     }
@@ -31,6 +34,10 @@ public class Word {
     public void setWord_explain(String word_explain) {
         this.word_explain = word_explain;
     }
+
+    /**
+     * Kiểm tra từ giống nhau
+     */
     public boolean isSame(Word w){
         if (this.word_explain.equals(w.word_target)&&
             this.word_explain.equals(w.word_explain))

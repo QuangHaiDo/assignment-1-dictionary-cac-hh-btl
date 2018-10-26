@@ -10,9 +10,13 @@ import java.awt.event.KeyListener;
 import java.util.ArrayList;
 
 public class GUILauncher {
+    /**
+     * CÁC THUỘC TÍNH CỦA GIAO DIỆN
+     * SỬ DỤNG JAVA SWING
+     */
     JFrame frame = new JFrame("Dictionary HH-Team GUILauncher");
     private JPanel mainPanel;
-    private JTextPane textPane1;
+    private JEditorPane textPane1;
     private JScrollPane scrollPane;
     private JList word_target_JList;
     private JTextField SearchBox;
@@ -21,6 +25,9 @@ public class GUILauncher {
     private JButton addWordButton;
     private JButton listenButton;
 
+    /**
+     * Hàm khởi tạo giao diện
+     */
     public GUILauncher(){
         dictionaryAdvancedStart();
         showWordsListOnStart();
@@ -41,6 +48,9 @@ public class GUILauncher {
 
             @Override
             public void keyReleased(KeyEvent e) {
+                /**
+                 * Mỗi lần gõ 1 phím thì lại xuất lại danh sách kết quả
+                 */
                         String input = SearchBox.getText().toLowerCase();
                         showWordsListOnSearching(input,104000);
                     }
@@ -77,7 +87,10 @@ public class GUILauncher {
 
     }
 
-
+    /**
+     * Hàm quét dữ liệu từ file
+     * Khi khởi chạy ứng dụng sẽ hiện 1 cửa sổ thông báo là Scanning, quét hoàn tất sẽ tự mất
+     */
     public void dictionaryAdvancedStart() {
         JDialog scanDatabaseDialog = new JDialog();
        // scanDatabaseDialog.setLayout(new FlowLayout());
@@ -90,9 +103,11 @@ public class GUILauncher {
         scanDatabaseDialog.setVisible(false);
     }
 
-
+    /**
+     * Hiện toàn bộ từ trong từ điển tại lần khởi động ứng dụng
+     */
     private void showWordsListOnStart(){
-        DefaultListModel word_target_List = new DefaultListModel<>();
+        DefaultListModel word_target_List = new DefaultListModel();
         for(Word w:dictManagerment.dict.searchWord("",104000)) {
             word_target_List.addElement(w.getWord_target());
         }
@@ -101,8 +116,11 @@ public class GUILauncher {
         this.word_target_JList.setVisibleRowCount(3);
     }
 
+    /**
+    *   Hàm hiện từ mỗi lần ấn mỗi kí tự vào ô tìm kiếm
+     **/
     private void showWordsListOnSearching(String prefix,int limit){
-        DefaultListModel word_target_List = new DefaultListModel<>();
+        DefaultListModel word_target_List = new DefaultListModel();
         for(Word w:dictManagerment.dict.searchWord(prefix,limit)) {
             word_target_List.addElement(w.getWord_target());
             word_explain_List.add(w.getWord_explain());
@@ -113,11 +131,19 @@ public class GUILauncher {
         this.word_target_JList.setVisibleRowCount(3);
     }
 
-    ArrayList<String> word_explain_List = new ArrayList<>();
+    /**
+     * Khai báo danh sách @para word_expain_List để chứa nghĩa của từ để làm tham số cho JTextPane sẽ hiển thị nghĩa đó.
+     * @para dictManagermment khởi tạo quản lý từ điển, đã bao gồm khởi tạo bộ từ điển
+     */
+    ArrayList<String> word_explain_List = new ArrayList();
     DictionaryManagerment dictManagerment = new DictionaryManagerment();
 
 
     public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+        /**
+         * 1. Chạy GUI dùng giao diện, hiệu ứng của hệ điều hành
+         * 2. Khởi tạo Giao diện chính.
+         */
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         //DictOnStart onStart = new DictOnStart();
         GUILauncher init = new GUILauncher();

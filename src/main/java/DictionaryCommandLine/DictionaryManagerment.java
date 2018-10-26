@@ -3,11 +3,19 @@ package DictionaryCommandLine;
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * Class quản lý nhập xuất/thêm/sửa/xóa từ trong từ điển
+ */
 public class DictionaryManagerment {
-
+    /**
+     * Khởi tạo danh sách từ trong từ điển và danh sách từ ưa thích
+     */
     Dictionary dict = new Dictionary();
     Favourite myFavortire = new Favourite();
 
+    /**
+     * Hàm nhập từ mới bằng commandline
+     */
     public void insertFromCommandline(){
         Word newWord = new Word();
         Scanner sc = new Scanner(System.in);
@@ -15,10 +23,17 @@ public class DictionaryManagerment {
         newWord.setWord_target(sc.nextLine().toLowerCase());
         System.out.println("Word_Explane: ");
         newWord.setWord_explain(sc.nextLine().toLowerCase());
+        /**
+         * Sau khi nhập, thêm từ vào cả 2 danh sách
+         */
         addToMyFavourite(newWord.getWord_target(), newWord.getWord_explain());
         addWordToTree(newWord.getWord_target(),newWord.getWord_explain());
     }
 
+    /**
+     * Do danh sách từ trong từ điển lưu theo dạng cây Trie, khi thêm từ mới sẽ theo prefix từ đó đến hết độ dài từ và
+     * thêm Node con mới là từ mới
+     */
     public void addWordToTree(String target, String explain) {
         int len = target.length();
         Dictionary.Node cur = dict.root;
@@ -35,7 +50,10 @@ public class DictionaryManagerment {
         }
     }
 
-    // Show all words
+    /**
+     * Hàm hiển thị toàn bộ từ trong từ điển, sử dụng hàm tìm kiếm từ với prefix để là rỗng thì kết quả trả về sẽ là
+     * toàn bộ từ trong từ điển.
+     */
     public void showAllWords () {
         System.out.println();
         System.out.println("English          || Vietnamese         ");
@@ -47,6 +65,9 @@ public class DictionaryManagerment {
     }
 
 
+    /**
+     * Các hàm thêm/sửa/xóa từ.
+     */
     public void addToMyFavourite(Word w){
         if (myFavortire.isWordExisted(w)) System.out.println("Word existed!!!");
         else this.myFavortire.wordsList.add(w);
@@ -74,6 +95,14 @@ public class DictionaryManagerment {
             System.out.println("Word isn't exist!");
         }
     }
+
+    /**
+     * Các hàm nhập/ xuất từ file, dù để đuôi là .dict nhưng file thực chất là file text với định dạng:
+     * Mỗi Word nằm trên một dòng
+     * mỗi dòng định dạng "word_target=word_explain"
+     * 1. Khi đọc file, mỗi dòng lưu dạng String[], 2 phần tử ngắt ở dấu "=", với String[0] là word_target và String[1] là word_explain
+     * 2. Tương tự, khi xuất file, mỗi word ở 1 dòng, xuất mỗi dòng định dang: "word_target=word_explain"
+     */
     public void exportWordsToMyFavourite()
     {
         File f = new File("database/MyFavourite");
